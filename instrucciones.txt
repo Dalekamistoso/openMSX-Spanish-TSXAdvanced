@@ -1,0 +1,121 @@
+===========================================================================================================
+                     TRADUCCION PROVISIONAL ESPAÑOLA DEL GUI INTERNO openMSX POR DRWH0               
+===========================================================================================================
+
+
+Hasta el lanzamiento oficial de la próxima versión estable de openMSX he decidido lanzar estos arreglos y 
+modificaciones PROVISIONALES de openMSX (consideralas de calidad beta) que mejoran el mismo con las 
+siguientes características:
+
+1.- Traducción de casi todas las funciones básicas del OSD interno a español
+2.- Añadidas opciones al GUI para activar/desactivar el interruptor de firmware interno 
+3.- Traducción de las "Toys" y herramientas más importantes
+4.- Filtro TSX para el uso SOLO con la versión modificada TSX Advanced de imulilla
+5.- Añadidos 2 atajos SHIFT+MENU y CTRL+MENU para activar/desactivar el botón de firmware interno
+6.- *Teoricamente* compatible con MAC/Dingux/Linux/Raspberry además de Windows (build 661 ojo)
+7.- Cambiado el juego de iconos predeterminados del emulador al set 5 (mejora estética)
+8.- Cambiados los colores del menú interno
+9.- Cambiado texto inicial del botón de menú (superior izquierda)
+
+Pendiente de hacer (para cuando salga la nueva versión estable):
+
+1.- Traducción de Catapult (el "frontend" externo de openMSX)
+2.- Traducción de los elementos restantes (dentro del ejecutable principal)
+3.- Traducción de los textos de ayuda de la consola 
+4.- Nuevo iconset/skin personalizado
+
+Se ha confirmado su compatibilidad con las versiones de openMSX:
+
+1.- Versión oficial compilada por Fixato/Vampier build 0.15.0-661-g995abc986
+2.- Versión TSX Advanced (https://github.com/imulilla/openMSX_TSXadv/releases)
+3.- Compatible tanto en plataformas de 32 como 64 bits (los ficheros son los mismos)
+
+
+===========================================================================================================
+                              COMO INSTALAR EL PARCHE DE MEJORA Y TRADUCCION
+===========================================================================================================
+
+1.- Descarga exactamente estas versiones desarrollo:
+
+Si usas Windows x64 (una de estas dos):
+
+Version oficial:
+
+https://openmsx.fixato.net/builds/windows/x64/openmsx-0.15.0-661-g995abc986-windows-vc-x64-bin.zip
+
+Version TSX advanced:
+
+https://github.com/imulilla/openMSX_TSXadv/releases/download/attacktheblock/wndows_openmsx_x64_90946d0.zip
+
+
+Si usas Windows x86 (una de estas dos):
+
+Version oficial:
+
+https://openmsx.fixato.net/builds/windows/x86/openmsx-0.15.0-661-g995abc986-windows-vc-x86-bin.zip
+
+Version TSX advanced:
+
+https://github.com/imulilla/openMSX_TSXadv/releases/download/attacktheblock/windows_openmsx_x86_90946d0.zip
+
+2.- Descomprimid el zip correspondiente a vuestra version en el directorio ya instalado y sobreescribid:
+    
+    La versión "normal" es para la version oficial mencionada antes
+    La versión "tsxadv" es para la version TSX Advanced de imulilla
+
+
+3.- Ejecutar openMSX.exe
+
+===========================================================================================================
+                                 LIMITACIONES Y ERRORES CONOCIDOS                                 
+===========================================================================================================
+
+1.- Ayuda de consola en inglés (el código está en openMSX.exe se cambiará en la nueva versión estable)
+2.- Catapult no está traducido (con la salida de la nueva versión estable añadiré dicha traducción)
+3.- Algunos avisos del OSD están en inglés (openMSX.exe se cambiará en la nueva versión estable)
+4.- Algunas funciones no van o hacen cosas raras (borra la carpeta "openmsx" de "mis documentos")
+5.- En las fichas aparece "Author" en vez de autor (esto es porque está así escrito en el romdb de Vampier)
+
+
+===========================================================================================================
+                         ¡QUIERO INFORMAR DE UN FALLO EN LA TRADUCCION!                           
+===========================================================================================================
+
+NO CONTACTES:
+
+Con el equipo de openMSX ya que la traducción y los cambios aún no ha sido incorporada de forma 
+oficial y ellos no tienen nada que ver por lo que no podrán ayudarte y sólo los molestarás 
+(se hará en el futuro si tengo tiempo tras la salida de la nueva versión estable).
+
+PARA CONTACTAR Y NOTIFICAR FALLOS ASI COMO PROPONER FUNCIONALIDADES Y/O MEJORAS O AGRADECIMIENTOS:
+
+https://msx.org/users/drwh0
+
+
+
+===========================================================================================================
+                             AUTORIAS - NOTAS LEGALES - LICENCIAMIENTO                             
+===========================================================================================================
+
+Autor de las modificaciones:
+
+Carlos Romero 
+
+Autores destacados del openMSX (es extensa):
+
+Ver el fichero "authors.txt" del directorio DOC de este paquete
+
+Gracias a Manuel Bilderbeek por añadir las correcciones que he propuesto en la build 661
+
+LICENCIAMIENTO:
+
+Todo el código de este fichero está implícitamente bajo el licenciamiento GPLv2 de openMSX por lo que se 
+aplican las mismas restricciones.
+
+RESPONSABILIDADES LEGALES:
+
+Este software se entrega "tal cual" sin ningún tipo de garantía ni responsabilidad alguna ya sea directa 
+o indirecta.
+
+
+Hecho en Sevilla (España) el 23/02/2020.
