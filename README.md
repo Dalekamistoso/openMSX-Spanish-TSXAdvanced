@@ -1,4 +1,4 @@
-# Traducción a español del openMSX TSXAdvanced (mod de imulilla) que añade soporte de TSX+IPS
+# Traducción a español de openMSX TSXAdvanced (imulilla) con soporte de TSX+IPS
 
 Spanish translation for openMSX TSX Advanced variant / Traducción a español de openMSX TSX Advanced
 
