@@ -12,7 +12,7 @@ changes must be considered as a beta quality:
 3.- Translation of the most important "Toys" and "Tools"
 4.- TSX filter for use *ONLY* in the modified version TSXAdvanced from "imulilla"
 5.- Added SHIFT+MENU + CTRL+MENU shortcuts to activate/deactivate firmware button of some MSX
-6.- Modifications *theoricaly* compatible with MAC/Dingux/Linux/Raspberry (only build 661 & the prior one)
+6.- Modifications full compatible with MAC/Dingux/Linux/Raspberry/Windows (build 05/13/2020)
 7.- Changed the default icon set to of emulator to set 5 (aesthetic enhancement)
 8.- Changed internal GUI default colours
 9.- Changed text of "menu" item in the upper left corner at startup
@@ -26,7 +26,7 @@ TO DO (when next stable version is launched I will start working on it):
 
 Compatibility with the following openMSX versions has been confirmed:
 
-1.- Official version compiled by Fixato/Vampier build 0.15.0-661-g995abc986
+1.- Official version compiled by Fixato/Vampier build 0.15.0-848-g4dbe0355f
 2.- TSXAdvanced Fork by imulilla (https://github.com/imulilla/openMSX_TSXadv/releases)
 4.- Compatible with 32 and 64 bits environments (files are the same)
 
@@ -34,32 +34,34 @@ Compatibility with the following openMSX versions has been confirmed:
                                      HOW TO INSTALL THIS PATCH
 ===========================================================================================================
 
-1.- Download exactly this the latest development builds:
+1.- Download exactly this the latest development builds (beta 003 supports latest ones):
 
-If you're using Windows x64:
+If you're using Windows x64 (x86/x64 use the same TCL files):
 
 Official version:
 
-https://openmsx.fixato.net/builds/windows/x64/openmsx-0.15.0-661-g995abc986-windows-vc-x64-bin.zip
+https://openmsx.fixato.net/builds/windows/x64/openmsx-0.15.0-794-gdbf6a10b6-windows-vc-x64-bin.zip (Beta 004)
+https://openmsx.fixato.net/builds/windows/x64/openmsx-0.15.0-788-g1eba978de-windows-vc-x64-bin.zip (Beta 003)
 
-TSX Advanced version:
+TSX Advanced version (only compatible up to beta002 of this translation):
 
-https://github.com/imulilla/openMSX_TSXadv/releases/download/attacktheblock/wndows_openmsx_x64_90946d0.zip
+https://github.com/imulilla/openMSX_TSXadv/releases/download/c8cb602/openMSX_TSXadv_x64.zip
 
 If you're using Windows x86:
 
 Official version:
 
-https://openmsx.fixato.net/builds/windows/x86/openmsx-0.15.0-661-g995abc986-windows-vc-x86-bin.zip
+https://openmsx.fixato.net/builds/windows/x86/openmsx-0.15.0-794-gdbf6a10b6-windows-vc-x86-bin.zip (Beta 004)
+https://openmsx.fixato.net/builds/windows/x86/openmsx-0.15.0-788-g1eba978de-windows-vc-x86-bin.zip (Beta 003)
 
-TSX Advanced version:
+TSX Advanced version (only compatible up to beta002 of this translation):
 
-https://github.com/imulilla/openMSX_TSXadv/releases/download/attacktheblock/windows_openmsx_x86_90946d0.zip
+https://github.com/imulilla/openMSX_TSXadv/releases/download/c8cb602/openMSX_TSXadv_x86.zip
 
 2.- Unzip zip file corresponding to your version on your installed folder and overwrite all the files:
 
     "normal" version is *ONLY* for official version
-	"tsxadv" version is *ONLY* for TSX Advanced version from imulilla
+    "tsxadv" version is *ONLY* for TSX Advanced version from imulilla
 
 3.- Run OpenMSX.exe
 
@@ -76,6 +78,8 @@ https://github.com/imulilla/openMSX_TSXadv/releases/download/attacktheblock/wind
 
 4.- Some functions of the emulator are not working anymore, work incorrectly or has weird behaviour (delete
     "openmsx" folder inside "my documents" before running)
+
+5.- If running under versions below commit "23e23b2" use BETA 001
 
 
 ===========================================================================================================
@@ -115,3 +119,38 @@ LEGAL RESPONSIBILITIES:
 This software is delivered "as is" without any warranty or liability either direct or indirect.
 
 Made in Seville (Spain) at 23/02/2020.
+
+
+
+
+CHANGELOG:
+==========
+
+
+BETA 001 Initial Release 02/25/2020 (only valid up to commit 23e23b2)
+
+BETA 002 Only official versions supported (04/21/2020)
+         Translated new changes from openMSX Team
+         Added drag and drop support translations
+         TSX Advanced translation not available yet (last build does not add the recent changes)         
+         Changed some texts for esthetic reasons
+         Supported lastest changes on build 21/04/2020
+
+BETA 003 Only official versions supported (05/13/2020)
+
+BETA 004 Only official versions supported (05/14/2020)
+         Valid from build 0.15.0-794 (05/14/2020)
+         Deleted shorcuts for invoking internal firmware switch (obsolete already present in OSD)
+         Added shorcut SHIFT+MENU (keep pressing SHIFT and then press MENU key) for typing universal poke in Basic
+         Added compability changes with version 0.15.0-794-gdbf6a10b6
+         Resized menu mini button to 60 px in order to adjust correctly to new "freetype" fonts (05/28/2020)
+
+BETA 005 Only official versions supported (06/11/2020)		 
+         Added recent changes in openMSX prior 0.16
+
+BETA 006 Added changes in load icons script to match new changes in current compiled builds (07/07/2020)
+
+BETA 007 Added new changes in scripts  to match new changes in current compiled builds also I forgot to add a 
+         little fix that I missed to add (07/11/2020)
+
+BETA 008 Added new changes in scripts  to match new changes in current compiled builds (08/11/2020)

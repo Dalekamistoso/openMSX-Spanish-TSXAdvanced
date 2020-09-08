@@ -4,9 +4,8 @@
 variable is_dingux [string match dingux "[openmsx_info platform]"]
 variable is_android [string match android "[openmsx_info platform]"]
 
-# Activar/Desactivar boton de firmware (DrWh0)
-bind_default MENU+SHIFT "set firmwareswitch on"
-bind_default MENU+CTRL "set firmwareswitch off"
+# Insertar poke universal (atajo boton de firmware obsoleto) (DrWh0)
+bind_default MENU+SHIFT "type_from_file poke.txt" 
 
 # cycle_machine
 bind_default CTRL+PAGEUP cycle_machine
